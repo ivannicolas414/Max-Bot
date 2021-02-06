@@ -33,7 +33,7 @@ This bot uses Javascript (JS) with the node module Discord.js
 - [x] UseLessWeb Command
 
 **Moderator Features** :
-- [x] Annocement Command - It allows the moderator to announce anything in Annocement Channel
+- [x] Annoucement Command - It allows the moderator to announce anything in Annoucement Channel
 - [x] Ban Command - Bans a user 
 - [x] Poll Command - It allows the moderator to warn a user in the server.
 - [x] Check Warn Command - It allows to check number of warns given to a user.
@@ -91,7 +91,7 @@ $ npm install
 $ node .
 ```
 
-**This project was also a colaboration between** :
+**This project was also a collaboration between** :
 1. beCoditive Inc. (https://github.com/beCoditive)
 2. Shuriken (https://github.com/CyberShuri)
 
