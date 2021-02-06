@@ -3,7 +3,7 @@
 
 [![Support Server Invite](https://img.shields.io/discord/760922672519184384.svg?color=7289da&label=beCoditive&logo=discord&style=flat-square)](https://discord.gg/5JtJFEcZeP)
 
-This bot was orginally designed specifically for beCoditive Discord Server 
+This bot was originally designed specifically for beCoditive Discord Server 
 
 This bot uses Javascript (JS) with the node module Discord.js
 
@@ -33,37 +33,34 @@ This bot uses Javascript (JS) with the node module Discord.js
 - [x] UseLessWeb Command
 
 **Moderator Features** :
-- [x] Annoucement Command - It allows the moderator to announce anything in Annoucement Channel
+- [x] Announcement Command - It allows the moderator to announce anything in Announcement Channel
 - [x] Ban Command - Bans a user 
-- [x] Poll Command - It allows the moderator to warn a user in the server.
-- [x] Check Warn Command - It allows to check number of warns given to a user.
+- [x] Poll Command - It allows the moderator to warn a user on the server.
+- [x] Check Warn Command - It allows checking the number of warns given to a user.
 - [x] Clear Command - It allows to delete some number of messages from the server.
 - [x] Delete Warn Command - It allows to delete warning of a user.
-- [x] Filter Words Command - It allows to Block some nsfw words in the server.
+- [x] Filter Words Command - It allows to Block some NSFW words in the server.
 - [x] Kick Command - Kicks a user 
 - [x] Poll Command - It allows the moderator to make a poll in Poll Channel
 
 **Public Features** :
-- [x] Avatar Command - It allows to see avatar of any user.
+- [x] Avatar Command - It allows seeing the avatar of any user.
 - [x] Docs Command - It allows to check docs of the discord.js
 - [x] Help Command
 - [x] Highlight Command - It highlights the text.
-- [x] Ping Command - To check current ping of the bot.
+- [x] Ping Command - To check the current ping of the bot.
 - [x] Google Command - Sends Image according to your needs in the server.
 - [x] Covid Command - Check the Number of Cases of Covid-19
 
 **Other Features** :
 - [x] Sends a nice Welcome image when a user joins.
 - [x] Block users from sending discord invite link.
-- [x] Sends a nice programming quotes after every 6 hours.
+- [x] Sends nice programming quotes after every 6 hours.
 - [x] Gives a default role when a member joins.
 
 # Config
 ![alt text](https://cdn.discordapp.com/attachments/802855640632524803/807144193721368616/config.js_-_Max_Bot_v1_Final_Version_-_Visual_Studio_Code_05-02-2021_12_31_07.png)
- 
- ***
- 
-  ⚠ Warning - Do not Change the DB name and Version
+  ⚠ Warning - Do not Change the DB name
 - token : Your_Token
 - prefix : Your_Prefered_Prefix
 - serverName : Your_Server_Name
