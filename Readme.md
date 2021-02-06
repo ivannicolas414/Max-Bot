@@ -60,7 +60,7 @@ This bot uses Javascript (JS) with the node module Discord.js
 
 # Config
 ![alt text](https://cdn.discordapp.com/attachments/802855640632524803/807144193721368616/config.js_-_Max_Bot_v1_Final_Version_-_Visual_Studio_Code_05-02-2021_12_31_07.png)
-  ⚠ Warning - Do not Change the DB name and Version Number
+  ⚠ Warning - Do not Change the DB name and Version
 - token : Your_Token
 - prefix : Your_Prefered_Prefix
 - serverName : Your_Server_Name
