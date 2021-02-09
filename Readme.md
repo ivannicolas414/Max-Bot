@@ -32,6 +32,13 @@ This bot uses Javascript (JS) with the node module Discord.js
 - [x] Rip Command
 - [x] UseLessWeb Command
 - [x] epicgamerate Command
+- [x] Spank Command
+- [x] Imagine Command
+- [x] Pun Command
+- [x] Facepalm Command
+- [x] Wholesome Command
+- [x] Gif Command
+
 
 **Moderator Features** :
 - [x] Announcement Command - It allows the moderator to announce anything in Announcement Channel
