@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
 const Discord = require("discord.js")
 const config_1 = require("../../config");
-class PingCommand extends discord_akairo_1.Command {
+class InfoCommand extends discord_akairo_1.Command {
     constructor() {
         super('info', {
             aliases: ['info'],
@@ -33,4 +33,4 @@ class PingCommand extends discord_akairo_1.Command {
           message.channel.send(embed)
     }
 }
-exports.default = PingCommand;
+exports.default = InfoCommand;

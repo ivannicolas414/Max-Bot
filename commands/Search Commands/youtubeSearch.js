@@ -7,7 +7,7 @@ const discord_akairo_1 = require("discord-akairo");
 const axios_1 = __importDefault(require("axios"));
 const Discord = require('discord.js')
 const ytsr = require("ytsr");
-class DocsCommand extends discord_akairo_1.Command {
+class YTSearchCommand extends discord_akairo_1.Command {
     constructor() {
         super("searchYT", {
             aliases: ['searchYT'],
@@ -33,7 +33,7 @@ class DocsCommand extends discord_akairo_1.Command {
     async  exec(message, { search }) {
        const query = search
        if(!search) return message.channel.send('Please specify something to search')
-       message.channel.send('Finding Channel.....')
+       message.channel.send('Finding Video.....')
        const res = await ytsr(query).catch(e => {
            return message.channel.send('No results were found')
        })
@@ -49,4 +49,4 @@ class DocsCommand extends discord_akairo_1.Command {
        message.channel.send(embed)
     }
 }
-exports.default = DocsCommand;
+exports.default = YTSearchCommand;

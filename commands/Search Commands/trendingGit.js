@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
 const trending = require('trending-github');
 const Discord = require('discord.js')
-class PingCommand extends discord_akairo_1.Command {
+class trendingGitCommand extends discord_akairo_1.Command {
     constructor() {
         super('trendingGit', {
             aliases: ['trendingGit'],
@@ -38,4 +38,4 @@ class PingCommand extends discord_akairo_1.Command {
    }
 }
 
-exports.default = PingCommand;
+exports.default = trendingGitCommand;

@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
 const Discord = require('discord.js')
 const Canvas = require('canvas'); 
-class TriviaCommand extends discord_akairo_1.Command {
+class YoutubeCommand extends discord_akairo_1.Command {
     constructor() {
         super('youtube', {
             aliases: ['youtube'],
@@ -28,8 +28,7 @@ class TriviaCommand extends discord_akairo_1.Command {
         });
     }
     async exec(message , args) {
-
-// Welcome Message
+ś
 
   const comment = message.content.split('$youtube ').join(' ');
 
@@ -85,42 +84,10 @@ class TriviaCommand extends discord_akairo_1.Command {
 
   ctx.drawImage(avatar , 20, 20, 100, 100);
 
-   
-
-
-
-//   ctx.font = '40px valorant'
-//   ctx.fillStyle = '#000';
-//   ctx.fillText(`${comment}`, 30 , 195);
-
-//   var d = new Date,
-//     dformat = [d.getMonth()+1,
-//     d.getDate(),
-//     d.getFullYear()].join('/')+'       '+
-//     [d.getHours(),
-//     d.getMinutes(),
-//     d.getSeconds()].join(':');
-
-
-//     ctx.font = '20px valorant'
-//     ctx.fillStyle = '#808080';
-//     ctx.fillText(`${dformat}`, 30 , 485);
-
-//     ctx.font = '15px valorant'
-//     ctx.fillStyle = '#808080';
-//     ctx.fillText(`${num}`, 30 , 450);
-
-//     var min2 = 10000;
-//     var max2 = 99999;
-//     var num2 = Math.floor(Math.random() * (max - min + 1)) + min;
-
-//     ctx.font = '15px valorant'
-//     ctx.fillStyle = '#808080';
-//     ctx.fillText(`${num2}`, 145 , 450);
 
   const attachment = new Discord.MessageAttachment(canvas.toBuffer(), 'welcome-image.png');
   message.channel.send(attachment)
 
     }
 }
-exports.default = TriviaCommand;
+exports.default = YoutubeCommand;

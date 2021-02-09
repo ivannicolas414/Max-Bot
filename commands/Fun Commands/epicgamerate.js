@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
 const Discord = require('discord.js')
-class TriviaCommand extends discord_akairo_1.Command {
+class EpicGameRateCommand extends discord_akairo_1.Command {
     constructor() {
         super('epicgamerate', {
             aliases: ['epicgamerate'],
@@ -29,4 +29,4 @@ class TriviaCommand extends discord_akairo_1.Command {
     }
 
 }
-exports.default = TriviaCommand;
+exports.default = EpicGameRateCommand;

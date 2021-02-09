@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
 const Warns_1 = require("../../models/Warns");const Discord = require('discord.js')
-class WarnCommand extends discord_akairo_1.Command {
+class AccounceCommand extends discord_akairo_1.Command {
     constructor() {
         super('annoucement', {
             aliases: ['annoucement'],
@@ -52,4 +52,4 @@ class WarnCommand extends discord_akairo_1.Command {
 
     }
 }
-exports.default = WarnCommand;
+exports.default = AccounceCommand;

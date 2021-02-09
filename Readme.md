@@ -1,4 +1,4 @@
-# Max Bot v1.6.9 Pre Released
+# Max Bot v1.6.9
 <a href="https://becoditive.ml"><img align="right" src="https://cdn.discordapp.com/attachments/803548530932318209/807153318945619979/8d2d1c5e0ee9e5141f1fc51567dba572.jpg" width=27%></a>
 
 [![Support Server Invite](https://img.shields.io/discord/760922672519184384.svg?color=7289da&label=beCoditive&logo=discord&style=flat-square)](https://discord.gg/5JtJFEcZeP)
@@ -11,12 +11,11 @@ This bot uses Javascript (JS) with the node module Discord.js
 - Node.js v12+
 
 ## What is New?
-- Spank Command
-- Imagine Command
-- Pun Command
-- Facepalm Command
-- Wholesome Command
-- Gif Command
+- searchYT Small Bug Fixed
+- Code Refactored.
+- surreal Command
+- meirl Command
+- xkcd Command
 
 # Features
 **Fun Features** :
@@ -32,6 +31,15 @@ This bot uses Javascript (JS) with the node module Discord.js
 - [x] Rip Command
 - [x] UseLessWeb Command
 - [x] epicgamerate Command
+- [x] surreal Command
+- [x] Spank Command
+- [x] Imagine Command
+- [x] Pun Command
+- [x] Facepalm Command
+- [x] Wholesome Command
+- [x] Gif Command
+- [x] meirl Command
+- [x] xkcd Command
 
 **Moderator Features** :
 - [x] Announcement Command - It allows the moderator to announce anything in Announcement Channel

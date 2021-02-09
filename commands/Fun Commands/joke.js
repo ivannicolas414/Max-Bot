@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
 const Discord = require('discord.js')
 let jokes  = require('../../joke_list').jokes;
-class TriviaCommand extends discord_akairo_1.Command {
+class jokeCommand extends discord_akairo_1.Command {
     constructor() {
         super('joke', {
             aliases: ['joke'],
@@ -27,4 +27,4 @@ class TriviaCommand extends discord_akairo_1.Command {
              message.channel.send(Embed)
     }
 }
-exports.default = TriviaCommand;
+exports.default = jokeCommand;

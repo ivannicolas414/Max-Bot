@@ -1,9 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
-const Discord = require('discord.js')
-let insults  = require('../../roast_list').insult
-class RoastCommand extends discord_akairo_1.Command {
+class spolierCommand extends discord_akairo_1.Command {
     constructor() {
         super('spoiler', {
             aliases: ['spoiler'],
@@ -24,4 +22,4 @@ class RoastCommand extends discord_akairo_1.Command {
         message.channel.send(`||${spoilerText}||`)
     }
 }
-exports.default = RoastCommand;
+exports.default = spolierCommand;

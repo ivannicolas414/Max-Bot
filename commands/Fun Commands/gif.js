@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
 const Discord = require('discord.js')
 const giphy = require('quick-giphy')
-class TriviaCommand extends discord_akairo_1.Command {
+class gifCommand extends discord_akairo_1.Command {
     constructor() {
         super('gif', {
             aliases: ['gif'],
@@ -27,4 +27,4 @@ class TriviaCommand extends discord_akairo_1.Command {
         })
     }
 }
-exports.default = TriviaCommand;
+exports.default = gifCommand;

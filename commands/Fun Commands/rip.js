@@ -4,7 +4,7 @@ const discord_akairo_1 = require("discord-akairo");
 const { MessageEmbed } = require("discord.js");
 const Discord = require('discord.js')
 const Canvas = require('canvas')
-class TriviaCommand extends discord_akairo_1.Command {
+class ripCommand extends discord_akairo_1.Command {
     constructor() {
         super('rip', {
             aliases: ['rip'],
@@ -42,4 +42,4 @@ class TriviaCommand extends discord_akairo_1.Command {
       
     }
 }
-exports.default = TriviaCommand;
+exports.default = ripCommand;

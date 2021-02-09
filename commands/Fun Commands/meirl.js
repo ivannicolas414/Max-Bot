@@ -3,23 +3,23 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
 const Discord = require('discord.js')
 const fetch = require('node-fetch')
-class FacepalmCommand extends discord_akairo_1.Command {
+class MeIrlCommand extends discord_akairo_1.Command {
     constructor() {
-        super('facepalm', {
-            aliases: ['facepalm'],
+        super('meirl', {
+            aliases: ['meirl'],
             category: 'Fun Commands',
             description: {
-                content: 'Generate facepalm from public API',
-                usage: 'facepalm',
+                content: 'Generate meirl from public API',
+                usage: 'meirl',
                 examples: [
-                    'facepalm'
+                    'meirl'
                 ]
             },
             ratelimit: 10
         });
     }
     async exec(message , args) {
-        fetch('https://meme-api.herokuapp.com/gimme/facepalm')
+        fetch('https://meme-api.herokuapp.com/gimme/meirl')
               .then(res => res.json())
               .then(async json => {
                     let msg = await message.channel.send('Generating Meme....')
@@ -32,4 +32,4 @@ class FacepalmCommand extends discord_akairo_1.Command {
               });
     }
 }
-exports.default = FacepalmCommand;
+exports.default = MeIrlCommand;

@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
 const Discord = require('discord.js')
 const fetch = require('node-fetch')
-class MemeCommand extends discord_akairo_1.Command {
+class WholesomeCommand extends discord_akairo_1.Command {
     constructor() {
         super('wholesome', {
             aliases: ['wholesome'],
@@ -32,4 +32,4 @@ class MemeCommand extends discord_akairo_1.Command {
               });
     }
 }
-exports.default = MemeCommand;
+exports.default = WholesomeCommand;

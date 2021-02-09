@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
 const Discord = require('discord.js')
 const Canvas = require('canvas'); 
-class TriviaCommand extends discord_akairo_1.Command {
+class TweetCommand extends discord_akairo_1.Command {
     constructor() {
         super('tweet', {
             aliases: ['tweet'],
@@ -93,4 +93,4 @@ class TriviaCommand extends discord_akairo_1.Command {
 
     }
 }
-exports.default = TriviaCommand;
+exports.default = TweetCommand;

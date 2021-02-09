@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
 const img = require("images-scraper")
-class PingCommand extends discord_akairo_1.Command {
+class GoogleCommand extends discord_akairo_1.Command {
     constructor() {
         super('google', {
             aliases: ['google'],
@@ -30,4 +30,4 @@ class PingCommand extends discord_akairo_1.Command {
         message.channel.send(results[0].url)
     }
 }
-exports.default = PingCommand;
+exports.default = GoogleCommand;

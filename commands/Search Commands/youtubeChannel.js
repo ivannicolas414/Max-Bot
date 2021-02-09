@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
 const Discord = require('discord.js')
 const ytsr = require("ytsr");
-class DocsCommand extends discord_akairo_1.Command {
+class YTChannelCommand extends discord_akairo_1.Command {
     constructor() {
         super("ytChannel", {
             aliases: ['ytChannel'],
@@ -51,4 +51,4 @@ class DocsCommand extends discord_akairo_1.Command {
        message.channel.send(embed)
     }
 }
-exports.default = DocsCommand;
+exports.default =  YTChannelCommand;

@@ -4,7 +4,7 @@ const discord_akairo_1 = require("discord-akairo");
 const { Octokit } = require("@octokit/rest");
 const octokit = new Octokit();
 const Discord = require('discord.js')
-class PingCommand extends discord_akairo_1.Command {
+class GitRepoCommand extends discord_akairo_1.Command {
     constructor() {
         super('gitRepo', {
             aliases: ['gitRepo'],
@@ -57,4 +57,4 @@ class PingCommand extends discord_akairo_1.Command {
    }
 }
 
-exports.default = PingCommand;
+exports.default = GitRepoCommand;

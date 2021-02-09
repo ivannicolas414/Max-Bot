@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
 const { MessageEmbed } = require("discord.js");
 const Discord = require('discord.js')
-class TriviaCommand extends discord_akairo_1.Command {
+class ballCommand extends discord_akairo_1.Command {
     constructor() {
         super('8ball', {
             aliases: ['8ball'],
@@ -32,4 +32,4 @@ class TriviaCommand extends discord_akairo_1.Command {
        message.channel.send(Embed)
     }
 }
-exports.default = TriviaCommand;
+exports.default = ballCommand;

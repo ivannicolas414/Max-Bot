@@ -4,7 +4,7 @@ const discord_akairo_1 = require("discord-akairo");
 const covid = require('covidtracker');
 const api = require('novelcovid');
 const Discord = require('discord.js')
-class PingCommand extends discord_akairo_1.Command {
+class CovidCommand extends discord_akairo_1.Command {
     constructor() {
         super('covid', {
             aliases: ['covid'],
@@ -60,4 +60,4 @@ class PingCommand extends discord_akairo_1.Command {
       
     }
 }
-exports.default = PingCommand;
+exports.default = CovidCommand;

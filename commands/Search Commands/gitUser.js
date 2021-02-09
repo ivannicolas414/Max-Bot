@@ -5,7 +5,7 @@ const { Octokit } = require("@octokit/rest");
 const octokit = new Octokit();
 const ghUser = require('gh-user');
 const Discord = require('discord.js')
-class PingCommand extends discord_akairo_1.Command {
+class GitUserCommand extends discord_akairo_1.Command {
     constructor() {
         super('gitUser', {
             aliases: ['gitUser'],
@@ -36,7 +36,7 @@ class PingCommand extends discord_akairo_1.Command {
          await ghUser(query).then(i => {
             const dateCreated = i.created_at.split('T')[0]
             const embed = new Discord.MessageEmbed()
-            .setDescription(`Serach Results for "${query}". Searched in ${this.client.ws.ping} ms`)
+            .setDescription(`Serach Results for "${query}". Searched in ${this.client.ws.GitUser} ms`)
             .setColor('RANDOM')
             .setThumbnail(i.avatar_url)
             .addField(`Link` , i.html_url)
@@ -56,4 +56,4 @@ class PingCommand extends discord_akairo_1.Command {
    }
 }
 
-exports.default = PingCommand;
+exports.default = GitUserCommand;

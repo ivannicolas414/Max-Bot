@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const discord_akairo_1 = require("discord-akairo");
-class PingCommand extends discord_akairo_1.Command {
+class HighlightCommand extends discord_akairo_1.Command {
     constructor() {
         super('highlight', {
             aliases: ['highlight'],
@@ -24,4 +24,4 @@ class PingCommand extends discord_akairo_1.Command {
  
     }
 }
-exports.default = PingCommand;
+exports.default = HighlightCommand;
