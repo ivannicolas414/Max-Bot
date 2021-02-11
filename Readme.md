@@ -74,9 +74,7 @@ This bot uses Javascript (JS) with the node module Discord.js
 - [x] Announcement Command - It allows the moderator to announce anything in Announcement Channel
 - [x] Ban Command - Bans a user 
 - [x] Poll Command - It allows the moderator to warn a user on the server.
-- [x] Check Warn Command - It allows checking the number of warns given to a user.
 - [x] Clear Command - It allows to delete some number of messages from the server.
-- [x] Delete Warn Command - It allows to delete warning of a user.
 - [x] Filter Words Command - It allows to Block some NSFW words in the server.
 - [x] Kick Command - Kicks a user 
 - [x] Poll Command - It allows the moderator to make a poll in Poll Channel
