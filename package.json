@@ -6,7 +6,7 @@
     "start": "nodemon .index.js"
   },
   "author": "beCoditive",
-  "license": "MIT",
+  "license": "LGPL",
   "dependencies": {
     "@octokit/rest": "^18.1.0",
     "@types/node": "^14.14.12",
